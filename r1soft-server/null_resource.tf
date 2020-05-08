@@ -33,7 +33,7 @@ triggers = {
       "sudo mkdir -p /efs",
       "sudo mount -t nfs ${aws_efs_file_system.my-efs.dns_name}:/ /efs",
       "sudo chmod 777 /etc/fstab",
-      "sudo echo '${aws_efs_file_system.my-efs.dns_name}':/ /efs efs defaults,_netdev 0 0 >> /etc/fstab",
+      "sudo echo '${aws_efs_file_system.my-efs.dns_name}':/ /efs nfs _netdev 0 0 >> /etc/fstab",
       "sudo systemctl restart nfs",
     ]
   }
