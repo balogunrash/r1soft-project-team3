@@ -28,6 +28,7 @@ resource "aws_instance" "centos" {
   instance_type = "${var.instance_type}"
   key_name      = "${aws_key_pair.my-key.key_name}"
   subnet_id     = "${aws_subnet.public1.id}"
+  tags          = "${var.tags}"
       security_groups = [
       "${aws_security_group.my-sg.id}"
     ]
