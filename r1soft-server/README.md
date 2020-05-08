@@ -20,7 +20,7 @@ CPU:          4 CPU cores minimum, recommended 1 core for each concurrent disk s
 
 
 
-We tested Bastion with  :
+We used below specification to test our code in this repository  :
 -  - t2.micro 
 -  - CPU 1
 - - Memory 1 GB
