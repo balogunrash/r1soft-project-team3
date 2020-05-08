@@ -10,7 +10,7 @@
                           
 ### Terraform Project - Team 3
 
-### Prerequisites  for a r1soft instance are:
+### Prerequisites  for a r1soft Server instance are:
 
 Linux Kernel: 	current 64 bit Linux kernel 
 
