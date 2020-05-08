@@ -10,7 +10,12 @@
                           
 ### Terraform Project - Team 3
 
-### Prerequist:
+### Prerequist for an r1soft instance are:
+Hardware	Requirements
+Linux Kernel	current 64 bit Linux kernel 
+Physical Memory	16 GB of RAM minimum plus 1 GB RAM per protected machine
+CPU	4 CPU cores minimum, recommended 1 core for each concurrent disk safe task (set in manager options)
+
 
 We tested Bastion with  :
 -  - t2.micro 
