@@ -121,11 +121,3 @@ resource "aws_route_table_association" "a3" {
   route_table_id = "${aws_route_table.my-rt2.id}"
 }
 
-
-resource "aws_route53_record" "www" { 
-  zone_id = "${var.zone_id}" 
-  name    = "gbeksbaby.com" 
-  type    = "A" 
-  ttl     = "300" 
-  records = ["${aws_instance.centos.public_ip}"]
-} 

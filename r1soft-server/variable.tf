@@ -25,3 +25,5 @@ variable "zone_id" {}
 variable "user" {}
 
 variable "password" {}
+
+variable "domain_name" {}

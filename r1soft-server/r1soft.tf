@@ -73,3 +73,13 @@ resource "aws_security_group" "my-sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
+
+
+
+resource "aws_route53_record" "www" { 
+  zone_id = "${var.zone_id}" 
+  name    = "${var.domain_name}" 
+  type    = "A" 
+  ttl     = "300" 
+  records = ["${aws_instance.centos.public_ip}"]
+} 

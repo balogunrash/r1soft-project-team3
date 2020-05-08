@@ -32,3 +32,5 @@ user            =       "admin"
 
 password        =       "password"
 
+domain_name     =       "gbeksbaby.com"
+

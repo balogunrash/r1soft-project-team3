@@ -22,3 +22,6 @@ output "efs-dns-name" {
   value = "${aws_efs_file_system.my-efs.dns_name}"
 }
 
+output "r1soft-domain-name" {
+  value = "${aws_route53_record.www.name}"
+}
